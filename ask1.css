@@ -1,0 +1,166 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: #4a0505;
+  }
+.wrapper {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+
+.title1 {
+    clear: both;
+    background-color: black;
+    right: 0;
+    padding: 25px;
+    color: white;
+}
+footer {
+    clear: both;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+a.facebooklink:visited {
+    color: blue;
+}
+a.facebooklink:active {
+    color: purple;
+}
+a.facebooklink:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+nav {
+    background-color: #4a0505;
+    width: 10%;
+    min-height: 100vh;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+}
+.navelement {
+    font-size: 20px;
+    width: 100px;
+    padding: 15px;
+}
+.navelement a:link {
+    color: springgreen;
+}
+.navelement a:visited {
+    color: white;
+}
+.navelement a:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+    color: seagreen;
+}
+.maintext {
+    background-image: url("back.jpg");
+    background-position: center;
+    width: 80%;
+    min-height: 100vh;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.maintext a:link {
+    color: red;
+}
+.maintext a:visited {
+    color: blue;
+}
+.maintext a:hover {
+    background-color: rgba(160, 54, 12, 0.384);
+    color: rgba(238, 50, 50, 0.863)
+}
+
+.social {
+    background-color: #4a0505;
+    width: 10%;
+    min-height: 100vh;
+    float: left;
+}
+.bandmembers {
+    float: right;
+    border-style: solid;
+    border-color: teal;
+}
+.info {
+    padding-top: 50px;
+}
+.albums {
+    font-size: 18px;
+}
+.albums ol{
+    margin-left: 25px;
+}
+.multimedia {
+    margin-left: 10px;
+}
+.first {
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 30%;
+    height: 700px;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-color: springgreen;
+    float: left;
+    overflow: auto;
+}
+.second {
+    background-color: rgba(160, 54, 12, 0.384);
+    width: 30%;
+    height: 700px;
+    margin: 10px;
+    padding:10px;
+    border-style:solid;
+    border-color: steelblue;
+    float: left;
+    overflow: auto;
+}
+.second ol {
+    list-style-type: upper-roman;
+}
+.second ul{
+    list-style: square;
+}
+.third {
+    background-color: rgba(136, 18, 10, 0.432);
+    width: 30%;
+    height: 700px;
+    margin: 10px;
+    padding:10px;
+    border-style:solid;
+    border-color: rgb(187, 125, 31);
+    float: left;
+    overflow: auto;
+}
+.third ol {
+    list-style-type: upper-alpha;
+}
+.third ul {
+    list-style: disc;
+}
+.tracks {
+    font-size: 16px;
+}
+.favourite {
+    width: 700px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+    text-align: center;
+    border-spacing: 0;
+    background-color: rgba(236, 165, 34, 0.705);
+}
+thead {
+    background-color: rgba(236, 142, 34, 0.801);
+}
+nav button {
+    margin: 5px;
+    font-size: 16px;
+    background-image: linear-gradient(to right, #134E5E 0%, #71B280 51%, #134E5E 100%);
+}
